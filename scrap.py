@@ -61,7 +61,7 @@ for english_letter in english_letters:
         # Generate the filename based on the word title
         filename = f"{i+1}_{word_title}.json"
 
-        filepath = os.path.join(output_dir, filename)
+        filepath = os.path.join(letter_dir, filename)
         with open(filepath, "w") as file:
             json.dump(data, file, indent=4)
 
