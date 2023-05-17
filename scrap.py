@@ -20,6 +20,9 @@ os.makedirs(output_dir, exist_ok=True)
 # Generate the list of English letters excluding 'a'
 english_letters = list(string.ascii_lowercase)
 english_letters.remove('a')
+english_letters.remove('b')
+english_letters.remove('c')
+english_letters.remove('d')
 
 
 # Set up the web driver with the custom options
